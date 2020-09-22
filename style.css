@@ -1,0 +1,259 @@
+body {
+  font-family: Overpass;
+  margin: 0;
+}
+
+h1 {
+  font-family: Ubunto;
+  opacity: .8;
+}
+
+h3 {
+  color: #404042;
+  font-family: Acme;
+}
+
+
+h2 {
+  color: #404042;	
+  text-align: center;
+  font-family: Ubunto;
+  font-size: 18px;
+
+}
+
+h4 {
+  color: #404042;
+  font-family: Ubunto;
+  margin: 0;
+  font-size: 13px;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/yellowstone2.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: black;
+  font-size: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #25fde9;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #75b5fe;
+  color: white;
+}
+
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 1px;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-white img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+  text-decoration: none;
+}
+  
+.card-white a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer {
+  background: #C0C0C0;
+  text-align: center;
+  padding: 1px 0;
+}
+
+.footer p {
+  color: black;
+}
+
+.fa {
+  text-decoration: none;
+  color: #75b5fe;
+}
+
+.social-header {
+    line-height: 50px;
+    margin: 1px;
+    left: 1200px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.social-header a {
+    padding: 10px;
+}
+
+
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+
+/* education page */
+.education_text {
+  padding: 15px 45px;
+  text-align: left;
+}
+
+.education_text h1 {
+  color: #003162;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.education_text h2 {
+  color: #1E90FF;
+  font-size: 15px;
+  margin: 0;
+  text-align: left;
+  opacity: .7;
+}
+
+.education_text h4 {
+  color: #003162;
+  font-size: 13px;
+  margin-bottom: -20px;
+  text-align: left;
+}
+
+.education_text p {
+  color: black;
+  font-size: 13px;
+}
+
+.logo_em img {
+  width: 40px;
+  height: 40px;
+  margin-top: -850px;
+  margin-left: 350px;
+  padding: 40px 50px;
+}
+
+.logo_smc img {
+  width: 40px;
+  height: 40px;
+  margin-top: -470px;
+  margin-left: 690px;
+  padding: 40px 50px;
+}
+
+.logo_esthederm img {
+  width: 80px;
+  height: 80px;
+  margin-top: -750px;
+  margin-left: 450px;
+}
+
+.logo_smc_tennis img {
+  width: 50px;
+  height: 50px;
+  margin-top: -850px;
+  margin-left: 110px;
+  padding: 10px 50px;
+}
+
+.logo_team img {
+  width: 350px;
+  height:210px;
+  margin-left:400px;
+}
+
+.projects {
+  font-size: 13px;
+  padding: 5px;
+  margin: 10px;
+  color: #1E90FF;
+}
+
+
+
